@@ -4,19 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="sidebar">
-        <div class="branding"></div>
-        <div class="navigation"></div>
+        <div class="branding">
+            <img src="./images/dash.png" alt="Dashboard logo" srcset="" width="50px">
+            <div class="logo-name">Dashboard</div>
+        </div>
+        <ul class="navigation">
+            <div class="package">
+                <img src="./images/home.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Home</li>
+            </div>
+            <div class="package">
+                <img src="./images/face-man-profile.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Profile</li>
+            </div>
+            <div class="package">
+                <img src="./images/message-settings.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Messages</li>
+            </div>
+            <div class="package">
+                <img src="./images/history.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">History</li>
+            </div>
+            <div class="package">
+                <img src="./images/file-tree.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Tasks</li>
+            </div>
+            <div class="package">
+                <img src="./images/google-circles-communities.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Communities</li>
+            </div>
+            <div></div>
+            <div class="package">
+                <img src="./images/cog-outline.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Settings</li>
+            </div>
+            <div class="package">
+                <img src="./images/face-agent.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Support</li>
+            </div>
+            <div class="package">
+                <img src="./images/account-lock.png" alt="" class="nav-logo" width="35px">
+                <li class="nav-item">Privacy</li>
+            </div>
+        </ul>
     </div>
     <div class="header">
-        <div class="search-bar"></div>
-        <div class="user-info"></div>
-        <div class="greeting"></div>
+        <div class="search-bar">
+            <img src="./images/magnify.png" alt="search" height="20px">
+            <input type="search" name="search" id="search">
+        </div>
+        <div class="user-info">
+            <img class="noti-img" src="./images/noti.png" alt="notifications" srcset="" height="20px">
+            <img class="profile-img" src="./images/user.jpeg" alt="profile picture" srcset="" width="40px">
+            <div class="profile-name">Morgan Brooke</div>
+        </div>
+        <div class="greeting">
+            <img class="profile-img" src="./images/user.jpeg" alt="profile picture" srcset="" width="75px">
+            <div class="greeting-text">
+                <p>Hey there,</p>
+                <h2>Morgan Brooke (@morgan-fool)</h2>
+            </div>
+        </div>
         <div class="buttons">
             <button class="button">New</button>
             <button class="button">Upload</button>
@@ -24,9 +81,163 @@
         </div>
     </div>
     <div class="main-content">
-        <div class="projects"></div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
+        <div class="projects">
+            <div class="section-heading">Your Projects</div>
+            <div class="card">
+                <div class="card-heading">Cool Project</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Fool's Land</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Morgan Freeman</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Dumb Project</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Hello World</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Diverse Project</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Unique Project</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">Green Project</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-heading">BLM</div>
+                <div class="card-text">This is an entirely made-up project which is said to be cool. Only under certain circumstances will you be able to fully drive out the coolness of this project. Otherwise it's just a lame one.
+                </div>
+                <div class="card-buttons">
+                    <img src="./images/star-plus-outline.png" alt="favorite" width="20px">
+                    <img src="./images/eye-arrow-right-outline.png" alt="view" width="20px">
+                    <img src="./images/source-fork.png" alt="fork" width="20px">
+                </div>
+            </div>
+        </div>
+        <div class="generic">
+            <div class="section-heading">Announcements</div>
+            <div class="a-card">
+                <div class="a-package">
+                    <div class="a-heading">Site Maintenance</div>
+                    <div class="a-text">The site is working fine. There is no need for any updates. If you have any complains, keep them to yourself.</div>
+                    <div class="break"></div>
+                </div>
+
+                <div class="a-package">
+                    <div class="a-heading">Community Share Day</div>
+                    <div class="a-text">We don't care about communities that's why we have decided to cancel the community share day.</div>
+                    <div class="break"></div>
+                </div>
+
+                <div class="a-package">
+                    <div class="a-heading">Updated Privacy Policy</div>
+                    <div class="a-text">We are proud to say that we haven't updated any policies. Do it yourself.</div>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <div class="generic">
+                <div class="section-heading">Trending</div>
+                <div class="a-card">
+                    <div class="t-package">
+                        <img class="profile-img" src="./images/1.png" alt="" width="50px" height="50px">
+                        <div>
+                            <div class="t-head">@proud-bobby-builder</div>
+                            <div class="a-text">Proud Bob Builders</div>
+                        </div>
+                    </div>
+                    <div class="t-package">
+                        <img class="profile-img" src="./images/2.png" alt="" width="50px" height="50px">
+                        <div>
+                            <div class="t-head">@world-peace-builder</div>
+                            <div class="a-text">World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="t-package">
+                        <img class="profile-img"src="./images/3.jpg" alt="" width="50px" height="50px">
+                        <div>
+                            <div class="t-head">@killer-man-brother</div>
+                            <div class="a-text">Kill, Love or Die</div>
+                        </div>
+                    </div>
+                    <div class="t-package">
+                        <img class="profile-img" src="./images/4.jpg" alt="" width="50px" height="50px">
+                        <div>
+                            <div class="t-head">@traffic-maker</div>
+                            <div class="a-text">No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
